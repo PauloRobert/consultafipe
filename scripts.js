@@ -37,7 +37,7 @@ $(document).ready(function () {
                     let listaVeiculos = veiculosFicticios.map(veiculo => `<li>${veiculo}</li>`).join('');
                     $(`#${statusId}`).removeClass("alert-warning").addClass("alert-success")
                                      .html(`Código ${codigo} encontrado na API da Porto Seguro.<br><ul>${listaVeiculos}</ul>`);
-                }, 3000);
+                }, 1000);
             }
         });
 
